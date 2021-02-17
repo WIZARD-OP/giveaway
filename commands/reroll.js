@@ -9,7 +9,7 @@ exports.run = async (client, message, args) => {
 
     // If no message ID or giveaway name is specified
     if(!args[0]){
-        return message.channel.send(':x: You have to specify a valid message ID!');
+        return message.channel.send('<:DS_BOT:811436200194998342> **You have to specify a valid message ID**!');
     }
 
     // try to found the giveaway with prize then with ID
