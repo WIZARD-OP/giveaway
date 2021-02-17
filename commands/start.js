@@ -4,14 +4,14 @@ exports.run = async (client, message, args) => {
 
     // If the member doesn't have enough permissions
     if(!message.member.hasPermission('MANAGE_MESSAGES') && !message.member.roles.cache.some((r) => r.name === "Giveaways")){
-        return message.channel.send(':x: You need to have the manage messages permissions to start giveaways.');
+        return message.channel.send('<:DS_BOT:811436200194998342> **You need to have the manage messages permissions to start giveaways.');
     }
 
     // Giveaway channel
     let giveawayChannel = message.mentions.channels.first();
     // If no channel is mentionned
     if(!giveawayChannel){
-        return message.channel.send('<:DS_BOT:811436200194998342> You have to mention a valid channel!');
+        return message.channel.send('<:DS_BOT:811436200194998342> **You have to mention a valid channel!**');
     }
 
     // Giveaway duration
