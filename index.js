@@ -11,8 +11,8 @@ client.giveawaysManager = new GiveawaysManager(client, {
     updateCountdownEvery: 3000,
     default: {
         botsCanWin: false,
-        embedColor: "#FF0000",
-        reaction: "🎉"
+        embedColor: "#0777e0",
+        reaction: "<:DS_CONGO:811442872661966848>"
     }
 });
 //Coded by Zero
