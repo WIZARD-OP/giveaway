@@ -49,8 +49,8 @@ exports.run = async (client, message, args) => {
         messages: {
             giveaway: (client.config.everyoneMention ? "@everyone\n\n" : "")+"<:DS_BOT:811436200194998342><:DS_BOT:811436200194998342> **GIVEAWAY** <:DS_BOT:811436200194998342><:DS_BOT:811436200194998342> ",
             giveawayEnded: (client.config.everyoneMention ? "@everyone\n\n" : "")+"<:DS_BOT:811436200194998342><:DS_BOT:811436200194998342> **GIVEAWAY ENDED** <:DS_BOT:811436200194998342><:DS_BOT:811436200194998342>",
-            timeRemaining: "Time remaining: **{duration}**!",
             inviteToParticipate: "React with <:DS_CONGO:811442872661966848> to participate!",
+            timeRemaining: "Time remaining: **{duration}**!",
             winMessage: "Congratulations, {winners}! You won **{prize}**!",
             embedFooter: "Giveaways",
             noWinner: "Giveaway cancelled, no valid participations.",
