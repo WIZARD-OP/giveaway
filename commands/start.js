@@ -11,7 +11,7 @@ exports.run = async (client, message, args) => {
     let giveawayChannel = message.mentions.channels.first();
     // If no channel is mentionned
     if(!giveawayChannel){
-        return message.channel.send(':x: You have to mention a valid channel!');
+        return message.channel.send('<:DS_BOT:811436200194998342> You have to mention a valid channel!');
     }
 
     // Giveaway duration
